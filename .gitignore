@@ -3,8 +3,9 @@
 # dependencies
 /node_modules
 
-# Ignore node_modules in all subdirectories
+# Ignore node_modules and env files in all subdirectories
 **/node_modules/
+**/.env
 
 /.pnp
 .pnp.js
